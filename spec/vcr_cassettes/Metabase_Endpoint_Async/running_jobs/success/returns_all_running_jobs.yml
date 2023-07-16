@@ -8,7 +8,7 @@ http_interactions:
       string: '{"username":"mb@example.com","password":"p@ssw0rd"}'
     headers:
       User-Agent:
-      - MetabaseRuby/0.1.0 (ruby2.5.1)
+      - MetabaseRuby/0.1.0 (ruby2.6.1)
       Content-Type:
       - application/json
       Accept-Encoding:
@@ -49,7 +49,7 @@ http_interactions:
       string: ''
     headers:
       User-Agent:
-      - MetabaseRuby/0.1.0 (ruby2.5.1)
+      - MetabaseRuby/0.1.0 (ruby2.6.1)
       X-Metabase-Session:
       - 1456dbad-9357-4b5b-ae73-98ebcd81a095
       Accept-Encoding:
@@ -90,7 +90,7 @@ http_interactions:
       string: ''
     headers:
       User-Agent:
-      - MetabaseRuby/0.1.0 (ruby2.5.1)
+      - MetabaseRuby/0.1.0 (ruby2.6.1)
       X-Metabase-Session:
       - 1456dbad-9357-4b5b-ae73-98ebcd81a095
       Accept-Encoding:

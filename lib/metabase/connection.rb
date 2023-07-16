@@ -1,7 +1,6 @@
 # frozen_string_literal: true
 
 require 'faraday'
-require 'faraday_middleware'
 require 'metabase/error'
 
 module Metabase
@@ -44,8 +43,8 @@ module Metabase
 
     def connection
       @connection ||= Faraday.new(url: @url) do |c|
-        c.request :json, content_type: /\bjson$/
-        c.response :json, content_type: /\bjson$/
+        c.request :json
+        c.response :json
         c.request :url_encoded, content_type: /x-www-form-urlencoded/
         c.adapter Faraday.default_adapter
         c.headers['User-Agent'] =
